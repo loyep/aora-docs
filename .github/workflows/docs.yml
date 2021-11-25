@@ -1,4 +1,4 @@
-name: github pages
+name: docs
 
 on:
   push:
@@ -16,4 +16,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.AOAR_DEPLOY_KEY }}
+          publish_branch: docs
           publish_dir: ./docs-dist
