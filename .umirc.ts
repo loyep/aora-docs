@@ -1,4 +1,5 @@
 import { defineConfig } from 'dumi';
+const repo = 'aora-docs';
 
 export default defineConfig({
   favicon:
